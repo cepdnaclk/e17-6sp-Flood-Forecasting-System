@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main{
+  height: 70px;
+  color: white;
+  background-color: #3D3737;
+}
+
+.brand{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.brand h2{
+  font-size: 40px;
+}
+
+.tab{
+  padding-top: 22px;
+  width : 12.5%;
+  text-align: center;
+}
+
+.tab:hover{
+  color : lightgray;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #766262;
+}
+
+.tab h5{
+    font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+a:hover {
+   text-decoration: none;
+  color: #FFF;
+}
