@@ -1,5 +1,5 @@
-export default function Home(){
-	return(
-		<h1>Home</h1>
-	);
+import { Map } from "@eris/react-arcgis";
+
+export default function Home() {
+  return <Map />;
 }
