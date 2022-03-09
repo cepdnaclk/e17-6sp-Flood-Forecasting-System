@@ -6,6 +6,7 @@ import Home from './assets/pages/home/home';
 import Report from './assets/pages/report/report';
 import Signin from './assets/pages/signin/signin';
 import Signup from './assets/pages/signup/signup';
+import Footer from './assets/pages/footer/footer';
 
 //styles
 import './index.css';
@@ -22,9 +23,11 @@ export default function App() {
 /*Homepage*/
 function Homepage(){
   return(
+
+  <div className="main">
     <Router>
       <div>
-        <Nav_bar/>
+        <NavBar/>
       </div>
         
 
@@ -36,17 +39,22 @@ function Homepage(){
             <Route exact path="/Signup" element={<Signup/>}/>
           </Routes>
 
+      <div>
+        <Footer/>
+      </div>
+
     </Router>
+  </div>
   );
 }
 
 
 /*navigation bar*/
-function Nav_bar(){
+function NavBar(){
   return(
-    <div className="row main">
-      <div className="col-6 brand">
-          <h2>FLOOD FORCASTING SYSTEM</h2>
+    <div className="row Nav">
+      <div className="col-md-6 brand">
+          <h2>FLOOD FORECASTING SYSTEM</h2>
       </div>
 
         <Link to='/Home' className="tab active" id="home" onClick={()=>set_active("home")}>
