@@ -1,0 +1,28 @@
+.footer .about{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: floralwhite;
+	background-color: #494949 ;
+}
+
+.footer .social{
+	padding-top: 20px;
+	padding-left: 45vw;
+	text-align: center;
+	color: floralwhite;
+	background-color: #000000 ;	
+}
+
+.footer .social .icon{
+	margin: 10px;
+}
+
+.footer .copyright{
+	margin: 0;
+	padding: 10px;
+	padding-top: 0;
+	text-align: center;
+	color: floralwhite;
+	background-color: #000000;
+}
