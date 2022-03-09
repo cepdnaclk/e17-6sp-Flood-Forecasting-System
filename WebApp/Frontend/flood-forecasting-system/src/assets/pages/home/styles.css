@@ -1,0 +1,56 @@
+.homeWindow{
+	height: 98vh;
+	max-width: 100vw;
+}
+
+.map{
+	background-image: url('../../images/map.png');
+
+}
+.warningBox{
+	height: 58vh;
+}
+
+.warningBox .topic{
+	height: 8vh;
+	text-align: center;
+	background-color: #FA0707;
+	padding: 2vh;
+	font-size: 18px;
+	color: floralwhite;
+}
+
+.smsAlert{
+	height: 40vh;
+	background-color: #766262;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.smsAlert h5{
+	color: floralwhite;
+	margin-bottom: 20px;
+}
+
+.alertForm input{
+	margin: 10px;
+	border-radius: 20px;
+	border-width: 0;
+	width: calc(100vw/4);
+	height: 40px;
+	padding-left: 40px;
+}
+
+.alertForm button{
+	width: calc(100vw/4);
+	height: 40px;
+	border-radius: 20px;
+	border-width: 0;
+	background-color: #3D3636;
+	color: floralwhite;
+}
+
+.right{
+	margin: 0;
+	padding: 0;
+}
