@@ -35,7 +35,7 @@ title: Flood Forecasting System
         In this project, our main objective is to build a flood forecasting system for Mi Oya river
         basin(Sri Lanka).Mi Oya Basin is heavily affected by seasonal flooding and droughts.
 
-![Flood afected areas](docs/images/FloodAffectedAreas.jpg)
+![Flood afected areas](images/FloodAffectedAreas.jpg)
 
         As per the available data, floods in the Mi Oya basin are unleashed due to river overflow
         and reservoir spilling. Out of the several reservoirs located in the basin, Tabbowa and
