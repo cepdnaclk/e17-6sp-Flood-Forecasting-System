@@ -1,0 +1,5 @@
+fastapi==0.75.0
+uvicorn==0.17.6
+python-decouple==3.6
+motor==2.5.1
+pymongo[srv]
