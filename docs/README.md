@@ -7,20 +7,39 @@ repository-name: e17-co328-Flood-Forecasting-System
 title: Flood Forecasting System
 ---
 
+<div align="center">
+
 # Flood Forecasting System
 
 ## Team
 
-- E/17/006, ALAHAKOON A.M.H.H, [e17006@eng.pdn.ac.lk](mailto:e17006@eng.pdn.ac.lk)
-- E/17/176, KUMARA W.M.E.S.K, [e17176@eng.pdn.ac.lk](mailto:e17176@eng.pdn.ac.lk)
-- E/17/338, SRIMAL R.M.L.C, [e17338@eng.pdn.ac.lk](mailto:e17338@eng.pdn.ac.lk)
+### Project Owner
+
+Dr. Upul Jayasinghe, [upuljm@eng.pdn.ac.lk](mailto:upuljm@eng.pdn.ac.lk)
+
+### Scrum Master
+
+Imesh Udara Ekanayake, [imeshuek@eng.pdn.ac.lk](mailto:imeshuek@eng.pdn.ac.lk)
+
+### Team members
+
+E/17/006, ALAHAKOON A.M.H.H, [e17006@eng.pdn.ac.lk](mailto:e17006@eng.pdn.ac.lk)
+
+E/17/176, KUMARA W.M.E.S.K, [e17176@eng.pdn.ac.lk](mailto:e17176@eng.pdn.ac.lk)
+
+E/17/338, SRIMAL R.M.L.C, [e17338@eng.pdn.ac.lk](mailto:e17338@eng.pdn.ac.lk)
+
+---
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Solution](#Solution)
-3. [Web Interface Overview](#web-Interface-Overview)
-4. [Links](#links)
+[Introduction](#introduction)
+
+[Solution](#Solution)
+
+[Solution Architecture](#Solution-Architecture)
+
+[Links](#links)
 
 ---
 
@@ -45,6 +64,8 @@ title: Flood Forecasting System
         for the entire basin is essential to alleviate the flood induced impacts while
         preserving the optimum volume of water in the major reservoirs in the basin.
 
+---
+
 ## Solution
 
         The proposed solution is to implement a simple data-driven or machine learning model to
@@ -61,13 +82,47 @@ title: Flood Forecasting System
         dissemination module, access control module, etc. Only privileged users have access to the
         control panel. The figure below outlines the highlevel structure of the web application.
 
-## Web Interface Overview
+---
 
-![web application structure](images/WebAppOverView.jpg)
+## Solution Architecture
+
+### `Requirement Analysis`
+
+| Functional Requirements                           | Nonfunctional Requirements |
+| ------------------------------------------------- | -------------------------- |
+| Forecast Floods and show critical regions in maps | Reliability                |
+| Warn general public by SMS alerts                 | Scalability                |
+| Generate flood reports                            | User experience            |
+| Control reservoir operations                      | Security                   |
+
+### `Usercase Diagram`
+
+<img src="images/usercase.png" alt="drawing" width="700"/>
+
+### `Highlevel System Overview`
+
+<img src="images/system_overview.png" alt="drawing" width="700"/>
+
+### `Data and Control Flow`
+
+<img src="images/d&c_flow.png" alt="drawing" width="700"/>
+
+### `Web Application Overview`
+
+<img src="images/WebAppOverView.jpg" alt="drawing" width="700"/>
+
+---
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/e17-co328-Flood-Forecasting-System)
-- [Project Page](https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System/)
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+[Project Repository](https://github.com/cepdnaclk/e17-co328-Flood-Forecasting-System)
+
+[Project Page](https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System/)
+
+[Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+
+[University of Peradeniya](https://eng.pdn.ac.lk/)
+
+---
+
+</div>
