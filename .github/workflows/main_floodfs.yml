@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: ./WebApp/Frontend/flood-forecasting-system/
+          path: ./WebApp/Frontend/flood-forecasting-system/build/
 
   deploy:
     runs-on: ubuntu-latest
