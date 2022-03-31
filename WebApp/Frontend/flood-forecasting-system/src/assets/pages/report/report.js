@@ -61,17 +61,6 @@ function Links() {
   return (
     <div className="external">
       <h5>External Links</h5>
-      <br />
-      <div className="row">
-        <div className="col-4">
-          <a href="#">Link1</a>
-        </div>
-        <div className="col-4">
-          <a href="#">Link2</a>
-        </div>
-        <div className="col-4">
-          <a href="#">Link3</a>
-        </div>
       </div>
     </div>
   );
