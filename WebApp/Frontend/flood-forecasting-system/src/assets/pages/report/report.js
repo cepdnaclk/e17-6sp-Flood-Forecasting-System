@@ -61,7 +61,6 @@ function Links() {
   return (
     <div className="external">
       <h5>External Links</h5>
-      </div>
     </div>
   );
 }
