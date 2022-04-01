@@ -26,9 +26,11 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
+        working-directory: WebApp/Backend/
       
       - name: Install dependencies
         run: pip install -r requirements.txt
+        working-directory: WebApp/Backend/
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
@@ -37,7 +39,7 @@ jobs:
         with:
           name: python-app
           path: |
-            . 
+            WebApp/Backend/app/
             !venv/
 
   deploy:
