@@ -13,9 +13,9 @@ export default function Footer() {
       </div>
     */}
       <div className="social row">
-          <div className="icon"><FaGithub style={{color: '#766262;', fontSize: '30px'}} /> </div> 
-          <div className="icon"><FaFacebook style={{color: '#766262;', fontSize: '30px'}} /> </div>
-          <div className="icon"><FaLinkedin style={{color: '#766262;', fontSize: '30px'}} /> </div>
+          <div className="icon"><FaGithub style={{color: '#766262', fontSize: '30px'}} /> </div> 
+          <div className="icon"><FaFacebook style={{color: '#766262', fontSize: '30px'}} /> </div>
+          <div className="icon"><FaLinkedin style={{color: '#766262', fontSize: '30px'}} /> </div>
 
       </div>
       <div className="copyright">

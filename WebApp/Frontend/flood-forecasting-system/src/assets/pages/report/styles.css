@@ -48,6 +48,15 @@
 	border-color: #3D3636;
 }
 
-.report .body{
+table{
+	margin-top: 2vh;
+	width: 70vw;
+}
+th, td {
+  border: 1px solid black;
+}
 
+.report .body{
+	height: 100px;
+	color: black;
 }
