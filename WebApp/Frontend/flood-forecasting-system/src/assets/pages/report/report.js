@@ -28,7 +28,7 @@ export default function Report() {
   //update changes
   const handleChange = (e) => {
     const type = "Type";
-    const { name, value } = e.target;
+    const { name } = e.target;
     setData((prevState) => ({
       ...prevState,
       [type]: name,
