@@ -1,0 +1,15 @@
+#signup-form{
+	color: #766262;
+	padding: 5vh 2vw 10vh 2vw ;
+	margin: 5vh 30vw 11.5vh 30vw;
+
+	border-style: solid;
+	border-color: #766262;
+	border-radius: 20px;
+	
+}
+
+#button-signup{
+	background-color: #766262;
+	color: floralwhite;
+}
