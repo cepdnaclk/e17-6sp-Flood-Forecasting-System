@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Body, Response
 from fastapi.encoders import jsonable_encoder
-from app.server.database import database
-from app.server.models.user import (UserScheama , ResponseModel)
+from server.database import database
+from server.models.user import (UserScheama , ResponseModel)
 
 user_collection = database.get_collection("users")
 
